@@ -5,14 +5,13 @@ variable "customer" {
     default = "dvs"
 }
 variable "ec2_ssh_key" {
-    default ="imported-openssh-key"
- AAAAB3NzaC1yc2EAAAADAQABAAABAQCsDYSXmrg0G0M1xYadXlgPuENiJ3A5XtlF
+    default ="
+AAAAB3NzaC1yc2EAAAADAQABAAABAQCsDYSXmrg0G0M1xYadXlgPuENiJ3A5XtlF
 N/sbbWSCH02Ks316VM+Cgkc378NHOd6g4rUvtYgfSUm4sBcKqLToiUIXwUIxv2K8
 kK8WegLhyK9Eq7RcQBtDOoFPR3vSTbqRl2EsYdJ969jiPJ4NzyUprzenPQvaA5tk
 JWFY2uudfXOcmuO7U2SC82aUYZBp4yESb4LZhge7UIfCHiNSyKsegxPMcltXa+kw
 ntwcE3y0o+OmRfjEgT/qHwRI1H95SbfkKvKuy8PRqp1QRhb05hYWyIx+jTat6CAp
 4QvWRnw2D62zS20Rde2z+uT4QmlNLo9EhH7S3UFuTIKdGMJgq+X9
-
 "}
 variable "env" {
     default = "dev"
