@@ -5,8 +5,14 @@ variable "customer" {
     default = "dvs"
 }
 variable "ec2_ssh_key" {
-    default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCxoqfP6la1XfdLlVtIwhN36i8FzMTh16d7EJZ/ivfDcAzjuWJoXYR7gTSrTGQ5oJuQ/eIm4LmRY+droxzNf7/BnO/6UtEWigNPQFKVNGvefkucpUz2gL0q56rL20eIKVnXmKm5e5qg2U8DIqx/bULxGaFJoDSP288Dd/6KUGkXXgQLlUHRChJbMJVE+r6lqK/mOD4CC8gvRPXwmvRRjLRcChxhLQXsCKOR4CTV4Eh+iM+PDo/wFnzjFcRqBvyXf/0i0+bAyCOpISxTQRecE2ieCsbA09vNOkukwrF1mJZ7L149K4cT8CMoCsy0QCgBLLSDgvptV6Wr0hBPS9T3eeil imported-openssh-key"
-}
+    default = "rsa-key-20240823"
+AAAAB3NzaC1yc2EAAAADAQABAAABAQCUgLQi6z5/uGPP6qj43Au2sLUqu/FCi3/b
+QjLnvVQLUi5tBX9oi2k5Ppxg7qLTtPehIm+ASk1NdCwwLeUZ74n3k4HlTuRaWpMg
+EcDcgRuwRZPkM7S69mIJoN1m/evsFSfc5ccoPKWVX0/DgcEZxAbh9hSRGr8NmZ94
+jb54tesloQ0fufPEXwCJX5Fj79eZEgRRWONeQP8QkkE0GzHQLEu1FUU5sOWj/3S6
+YAVRod+YSa2Gtu2mJk791D0b1p0LUcGM4/8JmsNd7Ztt9fgwOz5uO+hgKiwa3D2x
+WNLkjQfT8jBj3yrAqFSr7UtpKw4WoT0GdwxumJN9NJbxMsarHvuX
+"}
 variable "env" {
     default = "dev"
 }
@@ -40,7 +46,7 @@ variable "public_nodes_capacity" {
     default = "ON_DEMAND"
 }
 variable "public_nodes_type" {
-    default = "t3.small"
+    default = "t2.medium"
 }
 variable "public_nodes_min" {
     default = 1
@@ -65,7 +71,7 @@ variable "private_nodes_capacity" {
 }
 
 variable "private_nodes_type" {
-    default = "t3.small"
+    default = "t2.medium"
 }
 variable "private_nodes_min" {
     default = 1
