@@ -5,13 +5,14 @@ variable "customer" {
     default = "dvs"
 }
 variable "ec2_ssh_key" {
-    default = "rsa-key-20240823"
-AAAAB3NzaC1yc2EAAAADAQABAAABAQCUgLQi6z5/uGPP6qj43Au2sLUqu/FCi3/b
-QjLnvVQLUi5tBX9oi2k5Ppxg7qLTtPehIm+ASk1NdCwwLeUZ74n3k4HlTuRaWpMg
-EcDcgRuwRZPkM7S69mIJoN1m/evsFSfc5ccoPKWVX0/DgcEZxAbh9hSRGr8NmZ94
-jb54tesloQ0fufPEXwCJX5Fj79eZEgRRWONeQP8QkkE0GzHQLEu1FUU5sOWj/3S6
-YAVRod+YSa2Gtu2mJk791D0b1p0LUcGM4/8JmsNd7Ztt9fgwOz5uO+hgKiwa3D2x
-WNLkjQfT8jBj3yrAqFSr7UtpKw4WoT0GdwxumJN9NJbxMsarHvuX
+    default ="imported-openssh-key"
+ AAAAB3NzaC1yc2EAAAADAQABAAABAQCsDYSXmrg0G0M1xYadXlgPuENiJ3A5XtlF
+N/sbbWSCH02Ks316VM+Cgkc378NHOd6g4rUvtYgfSUm4sBcKqLToiUIXwUIxv2K8
+kK8WegLhyK9Eq7RcQBtDOoFPR3vSTbqRl2EsYdJ969jiPJ4NzyUprzenPQvaA5tk
+JWFY2uudfXOcmuO7U2SC82aUYZBp4yESb4LZhge7UIfCHiNSyKsegxPMcltXa+kw
+ntwcE3y0o+OmRfjEgT/qHwRI1H95SbfkKvKuy8PRqp1QRhb05hYWyIx+jTat6CAp
+4QvWRnw2D62zS20Rde2z+uT4QmlNLo9EhH7S3UFuTIKdGMJgq+X9
+
 "}
 variable "env" {
     default = "dev"
@@ -90,4 +91,3 @@ variable "private_nodes_labels" {
         env = "private"
     }
 }
-
